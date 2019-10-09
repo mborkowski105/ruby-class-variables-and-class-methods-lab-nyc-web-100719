@@ -29,6 +29,6 @@ class Song
   def self.genre_count
     genre_hash = {}
     
-    
+    return genre_hash
   end
 end 

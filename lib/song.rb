@@ -26,6 +26,10 @@ class Song
     return @@genres
   end
   
+  def self.artists_full 
+    return @@artist
+  end
+  
   def self.artists 
     return @@artists.uniq
   end

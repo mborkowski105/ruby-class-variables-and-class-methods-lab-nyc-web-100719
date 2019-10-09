@@ -27,7 +27,7 @@ class Song
   end
   
   def self.artists_full 
-    return @@artist
+    return @@artists
   end
   
   def self.artists 
